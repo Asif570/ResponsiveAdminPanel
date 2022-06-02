@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import Logo from "../imgs/logo.png";
-import { sidebarData } from "../data/data";
+import Logo from "../../imgs/logo.png";
+import { sidebarData } from "../../data/data";
 import { UilSignOutAlt } from "@iconscout/react-unicons";
 
 function Sidebar() {

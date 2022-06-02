@@ -1,12 +1,13 @@
 import "./App.css";
-import Sidebar from "./components/Sidebar";
+import MainDash from "./components/mainDash/MainDash";
+import Sidebar from "./components/Sidbar/Sidebar";
 
 function App() {
   return (
     <div className="App">
       <div className="AppGlass">
         <Sidebar />
-        <div>hello</div>
+        <MainDash />
         <div>hello</div>
       </div>
     </div>
