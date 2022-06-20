@@ -91,3 +91,23 @@
 .ChartContainer {
   width: 70%;
 }
+@media screen and (max-width: 1200px) {
+  .ExpandedCard {
+    top: 2rem;
+    left: 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ExpandedCard {
+    top: 8rem;
+    left: 1.5rem;
+    width: 80%;
+    height: 45%;
+  }
+  .ChartContainer {
+    width: auto;
+  }
+  .ExpandedCard > span:nth-of-type(1) {
+    margin-bottom: 0rem;
+  }
+}

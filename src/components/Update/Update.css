@@ -1,0 +1,23 @@
+.Updates {
+  width: 85%;
+  background: #fcfcfc;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 13px;
+}
+.update {
+  display: flex;
+  gap: 0.5rem;
+}
+.update > img {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.noti > div > span:nth-child(1) {
+  font-weight: bold;
+  color: black;
+  text-shadow: black;
+}

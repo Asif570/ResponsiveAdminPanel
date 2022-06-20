@@ -60,3 +60,42 @@
   background: var(--pink);
   margin-right: calc(1rem - 8px);
 }
+.bar {
+  display: none;
+  transition: all 500ms ease;
+}
+@media screen and (max-width: 1200px) {
+  .menu > .menuItem > span {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    padding-right: 1rem;
+    z-index: 9;
+    width: 50%;
+    height: 100%;
+    background: #ffe4e4;
+  }
+  .logo {
+    display: flex;
+  }
+  .menu > .menuItem > span {
+    display: block;
+  }
+  .menu > .menuItem:last-child {
+    position: relative;
+    bottom: -6rem;
+  }
+  .bar {
+    display: flex;
+    z-index: 10;
+    position: fixed;
+    top: 2rem;
+  }
+}

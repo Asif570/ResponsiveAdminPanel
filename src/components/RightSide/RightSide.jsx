@@ -1,4 +1,5 @@
 import React from "react";
+import CustomerReview from "../CustomerReviue/CustomerReview";
 import Update from "../Update/Update";
 import "./RightSide.css";
 function RightSide() {
@@ -10,6 +11,7 @@ function RightSide() {
       </div>
       <div className="CustomerReview">
         <h3>Customer Reviews</h3>
+        <CustomerReview />
       </div>
     </div>
   );
